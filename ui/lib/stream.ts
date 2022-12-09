@@ -9,13 +9,13 @@ import {geoPath} from 'd3-geo'
 import type {Feature} from 'geojson'
 import {feature} from 'topojson-client'
 import type {Topology} from 'topojson-specification'
-import {data} from './store'
+import {data} from '../store'
 
 /** translates topojson to render-able geojson */
 export function parseTopo(topo: Topology | Feature) {
   const geoFeature =
     topo.type === 'Topology'
-      ? feature(topo, topo.objects.shape)
+      ? feature(topo, topo.objects.dummy)
       : topo
 
   if (geoFeature.type === 'FeatureCollection')

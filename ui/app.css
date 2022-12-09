@@ -27,6 +27,13 @@ body,
   font-family: Lora, Arial, Helvetica, sans-serif;
 }
 
+/* 
+ z-indexes:
+ inner border: 0
+ legend outer: 1
+ map: 2
+ */
+
 /* latin 400 */
 @font-face {
   font-family: 'Lora';

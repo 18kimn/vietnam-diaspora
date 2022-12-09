@@ -1,11 +1,11 @@
 <script lang="ts">
   import Map from './lib/Map/Map.svelte'
-  import streamData from './stream'
+  import streamData from './lib/stream'
   import {onMount} from 'svelte'
   import {data} from './store'
 
   onMount(() => {
-    streamData('/borders.json', data)
+    streamData('/borders.json', data.countries.features)
   })
 </script>
 
