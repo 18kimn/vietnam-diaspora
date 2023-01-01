@@ -5,6 +5,8 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
       - id: 'fetch_sheet'
         uses: 'jroehl/gsheet.action@v1.0.0'
         with:
@@ -17,8 +19,7 @@ jobs:
         env:
           GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
           GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
-      - name: write to local file
-        uses: actions/checkout@v3
+      - name: write sheet to local file
         env:
           RESULTS: ${{ steps.fetch_sheet.outputs.results }}
         run: echo "$RESULTS" > data/sheets.json
