@@ -13,7 +13,7 @@ jobs:
           spreadsheetId: '1eJk-J_UwVQ3qdCAqPKQ49sKff7dnKTfxfGf5E2GRvBE'
           commands: |
             [
-              { "command": "getSpreadsheet"}
+              { "command": "getSpreadsheet" },
               { "command": "getData", "args": { "range": "Sheet1" }}
             ]
         env:
