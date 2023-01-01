@@ -1,0 +1,29 @@
+name: fetch-sheets
+on: push
+run-name: Fetch migration data from (public) google sheets
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - id: 'fetch_sheet'
+      uses: 'jroehl/gsheet.action@v1.0.0'
+      with:
+        spreadsheetId: '1eJk-J_UwVQ3qdCAqPKQ49sKff7dnKTfxfGf5E2GRvBE'
+        commands: |
+          [
+            { "command": "getSpreadsheet"}
+            { "command": "getData", "args": { "range": "Sheet1" }}
+          ]
+      env:
+        GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
+        GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
+    - name: write to local file
+      uses: actions/checkout@v3
+      env:
+        RESULTS: ${{ steps.fetch_sheet.outputs.results }}
+      run: echo "$RESULTS" > data/sheets.json
+    - name: commit changes
+      uses: devops-infra/action-commit-push@master
+      with:
+        github_token: '${{ secrets.GH_TOKEN }}'
+        commit_message:
+          Data update triggered by ${{ github.actor }}
