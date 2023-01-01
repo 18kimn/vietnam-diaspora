@@ -13,7 +13,7 @@ jobs:
           spreadsheetId: '1eJk-J_UwVQ3qdCAqPKQ49sKff7dnKTfxfGf5E2GRvBE'
           commands: |
             [
-              { "command": "getSpreadsheet" }
+              { "command": "getSpreadsheet", "spreadsheetId": "1eJk-J_UwVQ3qdCAqPKQ49sKff7dnKTfxfGf5E2GRvBE" }
             ]
         env:
           GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
