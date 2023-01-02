@@ -22,7 +22,7 @@ jobs:
         shell: python
         run: |
           result='''${{ steps.fetch_sheet.outputs.results }}'''
-          f = open('data/sheets.json')
+          f = open('data/sheets.json', "w")
           f.write(result)
       - name: commit changes
         uses: devops-infra/action-commit-push@master
