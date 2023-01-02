@@ -21,7 +21,7 @@ jobs:
       - name: write sheet to local file
         env:
           RESULTS: ${{ steps.fetch_sheet.outputs.results }}
-        run: echo "$RESULTS" > data/sheets.json
+        run: echo $RESULTS > data/sheets.json
       - name: commit changes
         uses: devops-infra/action-commit-push@master
         with:
