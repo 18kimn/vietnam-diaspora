@@ -19,9 +19,9 @@ jobs:
           GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
           GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
       - name: write sheet to local file
-        env:
-          RESULTS: ${{ steps.fetch_sheet.outputs.results }}
-        run: echo $RESULTS > data/sheets.json
+        run: |
+          RESULTS=${{ steps.fetch_sheet.outputs.results }}
+          echo $RESULTS > data/sheets.json
       - name: commit changes
         uses: devops-infra/action-commit-push@master
         with:
