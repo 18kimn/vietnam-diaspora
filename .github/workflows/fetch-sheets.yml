@@ -19,10 +19,11 @@ jobs:
           GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
           GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
       - name: write sheet to local file
-        uses: devops-actions/json-to-file@v1.0.0
-        with:
-          filename: 'data/sheets.json'
-          json: ${{ steps.fetch_sheet.outputs.results }}
+        shell: python
+        run: |
+          result=r'${{ steps.fetch_sheet.outputs.results }}'
+          f = open('data/sheets.json')
+          f.write(result)
       - name: commit changes
         uses: devops-infra/action-commit-push@master
         with:
