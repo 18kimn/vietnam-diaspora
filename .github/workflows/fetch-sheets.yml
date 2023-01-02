@@ -19,9 +19,13 @@ jobs:
           GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
           GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
       - name: write sheet to local file
-        run: |
-          RESULTS=$'${{ steps.fetch_sheet.outputs.results }}'
-          echo $RESULTS > data/sheets.json
+        uses: actions/github-script@v6
+        with:
+          result-encoding: string
+          script: |
+            const fs = require('fs')
+            const data = ${{ steps.fetch_sheet.outputs.results }}
+            fs.writeFileSync('./data/sheets.json', JSON.stringify(data))
       - name: commit changes
         uses: devops-infra/action-commit-push@master
         with:
