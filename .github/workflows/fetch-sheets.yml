@@ -19,10 +19,9 @@ jobs:
           GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
           GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
       - name: write sheet to local file
-        uses: jsdaniell/create-json@v1.2.2
+        uses: devops-actions/json-to-file@v1.0.0
         with:
-          name: 'sheets.json'
-          dir: 'data/'
+          filename: 'data/sheets.json'
           json: ${{ steps.fetch_sheet.outputs.results }}
       - name: commit changes
         uses: devops-infra/action-commit-push@master
