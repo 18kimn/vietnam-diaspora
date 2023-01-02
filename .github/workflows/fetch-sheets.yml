@@ -1,4 +1,5 @@
 name: fetch-sheets
+on: workflow_dispatch
 run-name: Fetch migration data from (public) google sheets
 jobs:
   fetch:
