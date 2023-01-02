@@ -21,7 +21,7 @@ jobs:
       - name: write sheet to local file
         shell: python
         run: |
-          result=r'${{ steps.fetch_sheet.outputs.results }}'
+          result='''${{ steps.fetch_sheet.outputs.results }}'''
           f = open('data/sheets.json')
           f.write(result)
       - name: commit changes
