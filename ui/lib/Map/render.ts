@@ -1,6 +1,6 @@
 import type {LineString} from 'geojson'
 import paintCountries from './paintCountries'
-import type {Countries} from '../../types'
+import type {Countries} from '../../../types'
 import {data} from '../../store'
 
 /** tiny wrapper for the actual paint functions */

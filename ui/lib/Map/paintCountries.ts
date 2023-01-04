@@ -1,4 +1,4 @@
-import type {Countries} from 'ui/types'
+import type {Countries} from '../../../types'
 
 /** paints countries; called during render loop */
 function paintCountries(

@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "run-ts": "node --loader ts-node/esm --experimental-specifier-resolution=node"
+    "run-ts": "node --loader ts-node/esm --experimental-specifier-resolution=node",
+    "preprocess": "pnpm run-ts data/processTopo.ts"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.2",

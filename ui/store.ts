@@ -1,5 +1,5 @@
 import {writable} from 'svelte/store'
-import type {Country, Progress} from './types'
+import type {Country, Progress} from '../types'
 import {geoEquirectangular} from 'd3-geo'
 import type {ZoomTransform} from 'd3-zoom'
 

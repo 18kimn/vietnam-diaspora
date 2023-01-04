@@ -1,0 +1,25 @@
+COUNTRY,in_migration_only,in_shapefile_only
+Sample Country,TRUE,FALSE
+Central African Republic (CAR),TRUE,FALSE
+"Congo, Democratic Republic of the",TRUE,FALSE
+"Congo, Republic of the",TRUE,FALSE
+Cote d'Ivoire,TRUE,FALSE
+England,TRUE,FALSE
+Eswatini,TRUE,FALSE
+French Guyana,TRUE,FALSE
+Hong Kong,TRUE,FALSE
+Kosovo,TRUE,FALSE
+Macau,TRUE,FALSE
+Micronesia,TRUE,FALSE
+North Macedonia,TRUE,FALSE
+Palau,TRUE,FALSE
+Saint Kitts and Nevis,TRUE,FALSE
+Saint Lucia,TRUE,FALSE
+Saint Vincent and the Grenadines,TRUE,FALSE
+Samoa,TRUE,FALSE
+Timor-Leste,TRUE,FALSE
+United Arab Emirates (UAE),TRUE,FALSE
+United Kingdom (UK),TRUE,FALSE
+United States of America (USA),TRUE,FALSE
+Vatican City (Holy See),TRUE,FALSE
+Yugoslavia,TRUE,FALSE

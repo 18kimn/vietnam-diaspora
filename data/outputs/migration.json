@@ -1,0 +1,1632 @@
+[
+  {
+    "Country": "Albania",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      }
+    ]
+  },
+  {
+    "Country": "Andorra",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Algeria",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 1000}
+        ]
+      },
+      {
+        "year": 1994,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 1000}
+        ]
+      },
+      {
+        "year": 1899,
+        "waves": [
+          {
+            "Migration wave": "colonial (forced exile migration + colonial education migration)",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "year": 1964,
+        "waves": [
+          {
+            "Migration wave": "postcolonial (marriage migration)",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (labor migration)",
+            "value": 500
+          }
+        ]
+      },
+      {
+        "year": 2006,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (labor migration)",
+            "value": 1000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Angola",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 50000}
+        ]
+      },
+      {
+        "year": 1983,
+        "waves": [
+          {
+            "Migration wave": "postcolonial (specialist migration)",
+            "value": 600
+          }
+        ]
+      },
+      {
+        "year": 2013,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (labor migration)",
+            "value": 45000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 100}
+        ]
+      },
+      {
+        "year": 2020,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (investment migration)",
+            "value": 50
+          },
+          {
+            "Migration wave": "post Cold War (labor migration)",
+            "value": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Argentina",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 2000}
+        ]
+      },
+      {
+        "year": 1994,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 500}
+        ]
+      },
+      {
+        "year": 1980,
+        "waves": [
+          {
+            "Migration wave": "post VN war (refugee migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (education + labor migration)",
+            "value": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Armenia",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 100}
+        ]
+      },
+      {
+        "year": 1950,
+        "waves": [
+          {
+            "Migration wave": "VN War & post VN War (socialist education & specialist migration)",
+            "value": 1000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Australia",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 334781},
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 1994,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 160000}
+        ]
+      },
+      {
+        "year": 1974,
+        "waves": [
+          {
+            "Migration wave": "VN War (education migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 294798
+          }
+        ]
+      },
+      {
+        "year": 1981,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 12000
+          }
+        ]
+      },
+      {
+        "year": 1980,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 12991
+          }
+        ]
+      },
+      {
+        "year": 1979,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 10799
+          }
+        ]
+      },
+      {
+        "year": 1978,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 5458
+          }
+        ]
+      },
+      {
+        "year": 1977,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 934
+          }
+        ]
+      },
+      {
+        "year": 1976,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "year": 1975,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 500
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "waves": [
+          {
+            "Migration wave": "post VN War (education migration)",
+            "value": 24000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Austria",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 5000}
+        ]
+      },
+      {
+        "year": 1994,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 3000}
+        ]
+      },
+      {
+        "year": 1979,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 500
+          }
+        ]
+      },
+      {
+        "year": 1978,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 253
+          }
+        ]
+      },
+      {
+        "year": 1975,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "year": 1990,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (ex Soviet labor migration)",
+            "value": 1000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Azerbaijan",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 50}
+        ]
+      },
+      {
+        "year": 2014,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 10
+          },
+          {
+            "Migration wave": "post Cold War (education migration)",
+            "value": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Bahrain",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 200}
+        ]
+      },
+      {
+        "year": 2008,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (labor migration)",
+            "value": 150
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Bangladesh",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 500}
+        ]
+      },
+      {
+        "year": 1994,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 500}
+        ]
+      },
+      {
+        "year": 2001,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "year": 2006,
+        "waves": [
+          {
+            "Migration wave": "post VN War (education migration)",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Belarus",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 1000}
+        ]
+      },
+      {
+        "year": 1980,
+        "waves": [
+          {
+            "Migration wave": "post VN War (Soviet education migration)",
+            "value": 200
+          }
+        ]
+      },
+      {
+        "year": 1979,
+        "waves": [
+          {
+            "Migration wave": "post VN War (Soviet education migration)",
+            "value": 200
+          }
+        ]
+      },
+      {
+        "year": 1990,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (business migration)",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Belgium",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 15000}
+        ]
+      },
+      {
+        "year": 1994,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 7000},
+          {
+            "Migration wave": "post Cold War (ex Soviet labor migration)",
+            "value": 500
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "waves": [
+          {
+            "Migration wave": "VN War (education migration)",
+            "value": 15000
+          }
+        ]
+      },
+      {
+        "year": 1974,
+        "waves": [
+          {
+            "Migration wave": "VN War (education migration)",
+            "value": 500
+          }
+        ]
+      },
+      {
+        "year": 1990,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 750
+          },
+          {
+            "Migration wave": "post Cold War (ex Soviet labor migration)",
+            "value": 750
+          }
+        ]
+      },
+      {
+        "year": 1983,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 1981,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 1980,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 1979,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "waves": [
+          {
+            "Migration wave": "post VN War (education migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 2006,
+        "waves": [
+          {
+            "Migration wave": "post VN War (education migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 2000
+          }
+        ]
+      },
+      {
+        "year": 2008,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Bolivia",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 100}
+        ]
+      },
+      {
+        "year": 2014,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Brazil",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 1000}
+        ]
+      },
+      {
+        "year": 1980,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "year": 1979,
+        "waves": [
+          {
+            "Migration wave": "post VN War (refugee migration)",
+            "value": 76
+          }
+        ]
+      },
+      {
+        "year": 1990,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (labor migration)",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (education migration)",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "year": 1994,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (education migration)",
+            "value": 1000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Brunei",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 2000},
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 1500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Bulgaria",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2500}]
+      },
+      {
+        "year": 2019,
+        "waves": [{"Migration wave": "", "value": 2500}]
+      }
+    ]
+  },
+  {
+    "Country": "Burkina Faso",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "estimate total", "value": 30}
+        ]
+      },
+      {
+        "year": 2014,
+        "waves": [
+          {
+            "Migration wave": "post Cold War (labor migration)",
+            "value": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Cambodia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100000}]
+      },
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 827000}]
+      },
+      {
+        "year": 2014,
+        "waves": [{"Migration wave": "", "value": 750000}]
+      }
+    ]
+  },
+  {
+    "Country": "Canada",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 150000}]
+      },
+      {
+        "year": 2016,
+        "waves": [{"Migration wave": "", "value": 240514}]
+      }
+    ]
+  },
+  {
+    "Country": "Chile",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "China",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 300000}]
+      },
+      {
+        "year": 2020,
+        "waves": [{"Migration wave": "", "value": 303000}]
+      }
+    ]
+  },
+  {
+    "Country": "Colombia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Cuba",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      }
+    ]
+  },
+  {
+    "Country": "Cyprus",
+    "migration": [
+      {
+        "year": 2015,
+        "waves": [{"Migration wave": "", "value": 12000}]
+      }
+    ]
+  },
+  {
+    "Country": "Czech Republic",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 20000}]
+      },
+      {
+        "year": 2013,
+        "waves": [{"Migration wave": "", "value": 200000}]
+      }
+    ]
+  },
+  {
+    "Country": "Denmark",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 5000}]
+      },
+      {
+        "year": 2020,
+        "waves": [{"Migration wave": "", "value": 15953}]
+      }
+    ]
+  },
+  {
+    "Country": "Egypt",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      }
+    ]
+  },
+  {
+    "Country": "England",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 25000}]
+      }
+    ]
+  },
+  {
+    "Country": "Estonia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 300}]
+      }
+    ]
+  },
+  {
+    "Country": "Finland",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      },
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 12051}]
+      }
+    ]
+  },
+  {
+    "Country": "France",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 400000}]
+      },
+      {
+        "year": 2017,
+        "waves": [{"Migration wave": "", "value": 400000}]
+      }
+    ]
+  },
+  {
+    "Country": "French Guyana",
+    "migration": [
+      {
+        "year": 1864,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Germany",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100000}]
+      },
+      {
+        "year": 2019,
+        "waves": [{"Migration wave": "", "value": 188000}]
+      }
+    ]
+  },
+  {
+    "Country": "Greece",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 700}]
+      }
+    ]
+  },
+  {
+    "Country": "Haiti",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 100}
+        ]
+      },
+      {
+        "year": 2018,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Hong Kong",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 50000}]
+      }
+    ]
+  },
+  {
+    "Country": "Hungary",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 5000}]
+      },
+      {
+        "year": 2016,
+        "waves": [{"Migration wave": "", "value": 7304}]
+      }
+    ]
+  },
+  {
+    "Country": "Iceland",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "India",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      }
+    ]
+  },
+  {
+    "Country": "Indonesia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 5000}]
+      }
+    ]
+  },
+  {
+    "Country": "Iran",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      }
+    ]
+  },
+  {
+    "Country": "Iraq",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      }
+    ]
+  },
+  {
+    "Country": "Ireland",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Israel",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 200}]
+      }
+    ]
+  },
+  {
+    "Country": "Italy",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      },
+      {
+        "year": 2020,
+        "waves": [{"Migration wave": "", "value": 5000}]
+      }
+    ]
+  },
+  {
+    "Country": "Japan",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 6000}]
+      },
+      {
+        "year": 2021,
+        "waves": [{"Migration wave": "", "value": 450046}]
+      }
+    ]
+  },
+  {
+    "Country": "Jordan",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 200}]
+      }
+    ]
+  },
+  {
+    "Country": "Kenya",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 200}]
+      }
+    ]
+  },
+  {
+    "Country": "Kuwait",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Laos",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 122000}]
+      },
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 10000}]
+      }
+    ]
+  },
+  {
+    "Country": "Latvia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Libya",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Liechtenstein",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Luxembourg",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Macau",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 4500}]
+      },
+      {
+        "year": 2018,
+        "waves": [{"Migration wave": "", "value": 20000}]
+      }
+    ]
+  },
+  {
+    "Country": "Malaysia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1200}]
+      },
+      {
+        "year": 2015,
+        "waves": [{"Migration wave": "", "value": 80000}]
+      }
+    ]
+  },
+  {
+    "Country": "Mexico",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      }
+    ]
+  },
+  {
+    "Country": "Monaco",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Mongolia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Morocco",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Myanmar",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Nepal",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Netherlands",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 10000}]
+      },
+      {
+        "year": 2019,
+        "waves": [{"Migration wave": "", "value": 23488}]
+      }
+    ]
+  },
+  {
+    "Country": "New Zealand",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 300}]
+      },
+      {
+        "year": 2018,
+        "waves": [{"Migration wave": "", "value": 10086}]
+      }
+    ]
+  },
+  {
+    "Country": "North Korea",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 300000}]
+      }
+    ]
+  },
+  {
+    "Country": "Norway",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      },
+      {
+        "year": 2021,
+        "waves": [{"Migration wave": "", "value": 27366}]
+      }
+    ]
+  },
+  {
+    "Country": "Pakistan",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      }
+    ]
+  },
+  {
+    "Country": "Papua New Guinea",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 300}]
+      }
+    ]
+  },
+  {
+    "Country": "Peru",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Philippines",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 5000}]
+      },
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 27600}]
+      }
+    ]
+  },
+  {
+    "Country": "Poland",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 30000}]
+      },
+      {
+        "year": 2013,
+        "waves": [{"Migration wave": "", "value": 60000}]
+      }
+    ]
+  },
+  {
+    "Country": "Portugal",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      }
+    ]
+  },
+  {
+    "Country": "Romania",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      },
+      {
+        "year": 2019,
+        "waves": [{"Migration wave": "", "value": 3000}]
+      }
+    ]
+  },
+  {
+    "Country": "Russia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100000}]
+      },
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 150000}]
+      }
+    ]
+  },
+  {
+    "Country": "San Marino",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 100}]
+      }
+    ]
+  },
+  {
+    "Country": "Saudi Arabia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      },
+      {
+        "year": 2015,
+        "waves": [{"Migration wave": "", "value": 20000}]
+      }
+    ]
+  },
+  {
+    "Country": "Singapore",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      },
+      {
+        "year": 2021,
+        "waves": [{"Migration wave": "", "value": 15000}]
+      }
+    ]
+  },
+  {
+    "Country": "Slovakia",
+    "migration": [
+      {
+        "year": 2015,
+        "waves": [{"Migration wave": "", "value": 20000}]
+      }
+    ]
+  },
+  {
+    "Country": "Solomon Islands",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 50}
+        ]
+      },
+      {
+        "year": 2019,
+        "waves": [
+          {
+            "Migration wave": "post VN war (labor migration/fishing industry)",
+            "value": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "South Korea",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 5000}]
+      },
+      {
+        "year": 2020,
+        "waves": [{"Migration wave": "", "value": 224518}]
+      }
+    ]
+  },
+  {
+    "Country": "South Sudan",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 100}
+        ]
+      },
+      {
+        "year": 2021,
+        "waves": [
+          {
+            "Migration wave": "post VN War (UN peacekeeping mission)",
+            "value": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Spain",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      }
+    ]
+  },
+  {
+    "Country": "Sweden",
+    "migration": [
+      {
+        "year": 2020,
+        "waves": [{"Migration wave": "", "value": 20676}]
+      },
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      }
+    ]
+  },
+  {
+    "Country": "Switzerland",
+    "migration": [
+      {
+        "year": 2020,
+        "waves": [{"Migration wave": "", "value": 8000}]
+      },
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 5000}]
+      }
+    ]
+  },
+  {
+    "Country": "Syria",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 0}
+        ]
+      },
+      {
+        "year": 2013,
+        "waves": [
+          {
+            "Migration wave": "post VN War (labor migration)",
+            "value": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Taiwan",
+    "migration": [
+      {
+        "year": 2021,
+        "waves": [{"Migration wave": "", "value": 243734}]
+      },
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 15000}]
+      }
+    ]
+  },
+  {
+    "Country": "Thailand",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 500000}]
+      },
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 120000}]
+      }
+    ]
+  },
+  {
+    "Country": "Turkey",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 2000}]
+      }
+    ]
+  },
+  {
+    "Country": "Ukraine",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 7000}]
+      },
+      {
+        "year": 2013,
+        "waves": [{"Migration wave": "", "value": 50000}]
+      },
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 10000}]
+      }
+    ]
+  },
+  {
+    "Country": "United Arab Emirates (UAE)",
+    "migration": [
+      {
+        "year": 2014,
+        "waves": [{"Migration wave": "", "value": 20000}]
+      }
+    ]
+  },
+  {
+    "Country": "United Kingdom (UK)",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [{"Migration wave": "", "value": 100000}]
+      },
+      {
+        "year": 2014,
+        "waves": [{"Migration wave": "", "value": 28000}]
+      }
+    ]
+  },
+  {
+    "Country": "United States of America (USA)",
+    "migration": [
+      {
+        "year": 2019,
+        "waves": [{"Migration wave": "", "value": 2183000}]
+      },
+      {
+        "year": 2018,
+        "waves": [{"Migration wave": "", "value": 2162610}]
+      },
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 950000}]
+      }
+    ]
+  },
+  {
+    "Country": "Vanuatu",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 300}
+        ]
+      },
+      {
+        "year": 1919,
+        "waves": [
+          {
+            "Migration wave": "colonial (penal, contract laborers)",
+            "value": 145
+          }
+        ]
+      },
+      {
+        "year": 1911,
+        "waves": [
+          {
+            "Migration wave": "colonial (penal, contract laborers)",
+            "value": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Vatican City (Holy See)",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 500}]
+      }
+    ]
+  },
+  {
+    "Country": "Yemen",
+    "migration": [
+      {
+        "year": 2022,
+        "waves": [
+          {"Migration wave": "total estimate", "value": 50}
+        ]
+      }
+    ]
+  },
+  {
+    "Country": "Yugoslavia",
+    "migration": [
+      {
+        "year": 1994,
+        "waves": [{"Migration wave": "", "value": 1000}]
+      }
+    ]
+  }
+]
