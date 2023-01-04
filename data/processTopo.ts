@@ -2,19 +2,14 @@ import {promises as fs} from 'fs'
 import {dirname, resolve} from 'path'
 import {fileURLToPath} from 'url'
 import type {FeatureCollection} from 'geojson'
+import type {Migration} from '../types'
 import {topology} from 'topojson-server'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 type MigrationCountry = {
   name: string
-  migration: {
-    year: number
-    waves: {
-      name: string
-      value: number
-    }[]
-  }[]
+  migration: Migration[]
 }
 
 function processMigration(rows: string[][]): MigrationCountry[] {
