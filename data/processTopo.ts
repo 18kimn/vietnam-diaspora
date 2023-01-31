@@ -4,12 +4,16 @@ import {fileURLToPath} from 'url'
 import type {FeatureCollection} from 'geojson'
 import type {Migration} from '../types'
 import {topology} from 'topojson-server'
+import {interpolateData} from '../utils'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
+/* Only used here, as an intermediary structure while
+ * assembling Google Sheets data into shapefile
+ * */
 type MigrationCountry = {
   name: string
-  migration: Migration[]
+  migration: Migration
 }
 
 function processMigration(rows: string[][]): MigrationCountry[] {
@@ -20,27 +24,34 @@ function processMigration(rows: string[][]): MigrationCountry[] {
     )
     const country = countries[countryIndex] || {
       name: row[0],
-      migration: []
+      migration: {}
     }
-    const waveName = row[1]
+    const waveName = row[1] || 'total estimate'
 
     /* Iterate through row by cell and attach it to the relevant year
     /* First few cells should always be skipped, as metadata */
     row.slice(3).forEach((cell, index) => {
-      const wave = {name: waveName, value: parseInt(cell)}
+      const cleanedCell = cell.replaceAll(',', '')
+      const wave = {name: waveName, value: parseInt(cleanedCell)}
       if (cell === '') return
-      const year = parseInt(headers[index + 3])
+      const year = parseInt(headers[index + 3]).toString()
+
+      /* If the country already has data for this year,
+       * add it to that data; otherwise create a new array of waves
+       * for this year
+       * */
       let yearFound = false
-      country.migration.forEach((yearData) => {
-        const isYear = yearData.year === year
+      Object.keys(country.migration).forEach((countryYear) => {
+        const isYear = countryYear === year
         if (isYear) {
-          yearData.waves.push(wave)
+          /* Append to existing waves for that year */
+          country.migration[countryYear].push(wave)
         }
         yearFound = isYear || yearFound
       })
 
       if (!yearFound) {
-        country.migration.push({year: year, waves: [wave]})
+        country.migration[year] = [wave]
       }
     })
 
@@ -68,8 +79,18 @@ async function processShapes() {
       )
       .then(JSON.parse)
   ).results[0].result.rawData as string[][]
-  const migration = processMigration(sheets)
-  console.log(migration[0])
+
+  const years = sheets[0].slice(3).map((n) => parseInt(n))
+  const migrationProto = processMigration(sheets)
+  const migration = migrationProto.map((country) => {
+    return {
+      ...country,
+      migration: interpolateData(
+        [years[years.length - 1], years[0]],
+        country.migration
+      )
+    }
+  })
 
   const topoString = shapes.features
     .map((feature) => {
@@ -89,6 +110,12 @@ async function processShapes() {
     })
     .join('\n')
 
-  fs.writeFile(`${__dirname}/borders.json`, topoString)
+  const writeLocation = resolve(
+    __dirname,
+    '../public/borders.json'
+  )
+
+  fs.writeFile(writeLocation, topoString)
 }
-processShapes()
+
+await processShapes()

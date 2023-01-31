@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "run-ts": "node --loader ts-node/esm --experimental-specifier-resolution=node",
-    "preprocess": "pnpm run-ts data/processTopo.ts"
+    "preprocess": "pnpm run-ts data/processTopo.ts",
+    "build": "pnpm preprocess && vite build"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
