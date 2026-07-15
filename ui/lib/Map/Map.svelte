@@ -6,16 +6,42 @@
   import {timer} from 'd3-timer'
   import {drawLand, updateProjection} from './render'
   import {parseTopo} from '../stream'
-  import type {Country} from '../../types'
+  import type {Country, PathReference} from '../../types'
+  import Curves from '../Curves.svelte'
   import Legend from '../Legend.svelte'
   import Slider from '../Slider.svelte'
+  import streamData from '../stream'
 
   let canvas: HTMLCanvasElement
   $: context = canvas?.getContext('2d')
   let width: number
   let height: number
+  let pathReference: PathReference = {}
 
-  onMount(() => {
+  let renderCurves = false
+  onMount(async () => {
+    await streamData('/borders.json', data.countries.features)
+    setTimeout(() => {
+      renderCurves = true
+    })
+    // for faster lookup when rendering
+    pathReference = data.countries.features.reduce(
+      (prev, country) => {
+        prev[country.properties.name] = {
+          type: 'LineString',
+          coordinates: [
+            [
+              country.properties.centroid_lon,
+              country.properties.centroid_lat
+            ],
+            [106.34809, 16.55668]
+          ]
+        }
+        return prev
+      },
+      {} as PathReference
+    )
+
     data.transform = zoomIdentity
 
     let lastTime = 0
@@ -48,10 +74,15 @@
   })
 </script>
 
-<div class="map-container">
-  <canvas {width} {height} bind:this={canvas} />
+<div class="container">
+  <div class="map-container">
+    {#if renderCurves}
+      <Curves {pathReference} {width} {height} />
+    {/if}
+    <canvas {width} {height} bind:this={canvas} />
+  </div>
   <div class="left">
-    <Inset>
+    <Inset delay={200}>
       <h1>Mapping the Vietnam Diaspora</h1>
       <p>placeholder content</p>
     </Inset>
@@ -66,12 +97,18 @@
 </div>
 
 <style>
-  .map-container {
+  .container {
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 3fr 1fr;
     position: relative;
+  }
+
+  .map-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 
   .left {

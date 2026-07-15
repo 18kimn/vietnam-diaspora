@@ -1,7 +1,7 @@
-<script>
-  /* eventually this will have pretty complex logic for controlling the eyear*/
+<script lang="ts">
+  import {year} from '../store'
   let num = 1600
-  $: console.log(num)
+  $: year.set(num)
 </script>
 
 <div class="container">
@@ -44,7 +44,7 @@
     background: var(--selection);
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: 4px;
+    margin: 4px;
   }
   input:focus::-webkit-slider-runnable-track {
     background: var(--bg-dark);
@@ -83,7 +83,6 @@
     box-shadow: 1px 1px 1px #000000;
   }
   input::-ms-thumb {
-    margin-top: 1px;
     box-shadow: 1px 1px 1px #000000;
     height: 22px;
     width: 50px;

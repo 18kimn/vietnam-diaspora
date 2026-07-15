@@ -1,25 +1,25 @@
-COUNTRY,in_migration_only,in_shapefile_only
-Sample Country,TRUE,FALSE
-Central African Republic (CAR),TRUE,FALSE
-"Congo, Democratic Republic of the",TRUE,FALSE
-"Congo, Republic of the",TRUE,FALSE
-Cote d'Ivoire,TRUE,FALSE
-England,TRUE,FALSE
-Eswatini,TRUE,FALSE
-French Guyana,TRUE,FALSE
-Hong Kong,TRUE,FALSE
-Kosovo,TRUE,FALSE
-Macau,TRUE,FALSE
-Micronesia,TRUE,FALSE
-North Macedonia,TRUE,FALSE
-Palau,TRUE,FALSE
-Saint Kitts and Nevis,TRUE,FALSE
-Saint Lucia,TRUE,FALSE
-Saint Vincent and the Grenadines,TRUE,FALSE
-Samoa,TRUE,FALSE
-Timor-Leste,TRUE,FALSE
-United Arab Emirates (UAE),TRUE,FALSE
-United Kingdom (UK),TRUE,FALSE
-United States of America (USA),TRUE,FALSE
-Vatican City (Holy See),TRUE,FALSE
-Yugoslavia,TRUE,FALSE
+COUNTRY,centroid_lon,centroid_lat,in_migration_only,in_shapefile_only
+Sample Country,NA,NA,TRUE,FALSE
+Central African Republic (CAR),NA,NA,TRUE,FALSE
+"Congo, Democratic Republic of the",NA,NA,TRUE,FALSE
+"Congo, Republic of the",NA,NA,TRUE,FALSE
+Cote d'Ivoire,NA,NA,TRUE,FALSE
+England,NA,NA,TRUE,FALSE
+Eswatini,NA,NA,TRUE,FALSE
+French Guyana,NA,NA,TRUE,FALSE
+Hong Kong,NA,NA,TRUE,FALSE
+Kosovo,NA,NA,TRUE,FALSE
+Macau,NA,NA,TRUE,FALSE
+Micronesia,NA,NA,TRUE,FALSE
+North Macedonia,NA,NA,TRUE,FALSE
+Palau,NA,NA,TRUE,FALSE
+Saint Kitts and Nevis,NA,NA,TRUE,FALSE
+Saint Lucia,NA,NA,TRUE,FALSE
+Saint Vincent and the Grenadines,NA,NA,TRUE,FALSE
+Samoa,NA,NA,TRUE,FALSE
+Timor-Leste,NA,NA,TRUE,FALSE
+United Arab Emirates (UAE),NA,NA,TRUE,FALSE
+United Kingdom (UK),NA,NA,TRUE,FALSE
+United States of America (USA),NA,NA,TRUE,FALSE
+Vatican City (Holy See),NA,NA,TRUE,FALSE
+Yugoslavia,NA,NA,TRUE,FALSE

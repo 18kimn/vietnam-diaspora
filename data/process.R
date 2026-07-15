@@ -4,14 +4,21 @@ library(tidyverse)
 library(jsonlite)
 
 countries <- st_read("inputs/world-countries")
+areas <- st_areas(countries)
 centroids <- st_centroid(countries)
+areas <- st_area(countries)
 vietnam <- centroids %>% filter(COUNTRY == "Vietnam")
 vietnam_distance <- centroids %>% 
-  mutate(dist = st_distance(geometry, vietnam)) %>% 
+  mutate(dist = st_distance(geometry, vietnam),
+         areas = units::drop_units(areas)) %>%
   arrange(dist) %>% 
-  mutate(rank = 1:nrow(.)) %>% 
-  select(-dist, -geometry) %>% 
-  st_drop_geometry() 
+  mutate(rank = 1:nrow(.),
+         centroid = map(geometry, ~unlist(list(.))),
+         centroid_lon = map_dbl(centroid, ~.[1]),
+         centroid_lat = map_dbl(centroid, ~.[2])) %>% 
+  select(-dist, -centroid) |> 
+  st_drop_geometry()
+  
 countries <- countries %>% 
   left_join(vietnam_distance, by = "COUNTRY") 
 
@@ -54,7 +61,7 @@ migration_raw <- migration_raw[3:length(migration_raw)] %>%
     names(wave) <- headers
     as_tibble(wave)
   }) %>% 
-  pivot_longer(3:last_col(), names_to = "year") %>% 
+  pivot_longer(3:last_col(), names_to = "year") 
 migration_keys <- tibble(COUNTRY = unique(migration_raw$Country),
                     in_migration_only = TRUE)
 countries %>% 

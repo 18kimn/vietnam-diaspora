@@ -1,4 +1,8 @@
-import type {Feature, FeatureCollection} from 'geojson'
+import type {
+  Feature,
+  FeatureCollection,
+  LineString
+} from 'geojson'
 
 export type Progress = {
   current: number
@@ -19,12 +23,22 @@ export type Migration = {
 
 export interface Country extends Feature {
   properties: {
+    name: string
+    rank: number
     startTime: number
     path2d: Path2D
     migration?: Migration
+    centroid_lat: number
+    centroid_lon: number
   }
 }
 
 export interface Countries extends FeatureCollection {
   features: Country[]
+}
+
+export interface Curve extends LineString {
+  properties: {
+    name: string
+  }
 }

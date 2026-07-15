@@ -27,6 +27,17 @@
     z-index: 2;
     background: var(--bg);
     border: 1px solid var(--bg);
+    opacity: 0;
+    animation: 1s ease-in-out 1s fadeIn forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   .left {
